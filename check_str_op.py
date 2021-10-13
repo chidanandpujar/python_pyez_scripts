@@ -18,3 +18,10 @@ str6 = "".join(myDict.keys())
 print(str6)
 str7 = str1.split("strings")
 print(str7)
+str8 = "aaabbaaa"
+print(str8.split('b'))
+print(str8.split('b',1))
+print(str8.count('a'))
+print(str8.count('aaa'))
+print(str8.count('a',0,5))
+
