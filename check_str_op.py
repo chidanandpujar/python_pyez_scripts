@@ -1,7 +1,7 @@
-str1 = "strings are needed"
+str1 = "testing string ops"
 str2 = str1.split()
 print(str2)
-str3 = str1.replace("are","must").split()
+str3 = str1.replace("testing","checking").split()
 print(str3)
 print(len(str1))
 print(len(str3))
