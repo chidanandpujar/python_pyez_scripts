@@ -8,3 +8,6 @@ even_list = list(filter(lambda n:n%2 == 0,l1))
 print(even_list)
 odd_list = list(filter(lambda n:n%2 !=0,l1))
 print(odd_list)
+
+l2 = list(map(lambda n: n*2 , l1))
+print(l2)
