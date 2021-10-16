@@ -1,5 +1,9 @@
-def printargs(**kwargs):
+printargs(**kwargs):
     print(kwargs)
+    for key in kwargs.keys():
+        print(key)
+    for value in kwargs.values():
+        print(value)
 
 
 if __name__ == "__main__":
