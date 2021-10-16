@@ -8,14 +8,11 @@ class TestMethods:
 
 class results(TestMethods):
     def result(self):
-        print("Tests Completed Successfully")
-    def test3(self):
+        super().test1()
+        super().test2()
         super().test3()
-        print("test3 is successful")
+        print("Tests Completed Successfully")
 
 
 testexec1=results()
-testexec1.test1()
-testexec1.test2()
-testexec1.test3()
 testexec1.result()
