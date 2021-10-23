@@ -1,21 +1,55 @@
-class test:
-    """ test doc string"""
-    class_variable="class variable"
-    a=10
+class printvar:
     def __init__(self,x,y):
-        self.x=x
-        self.y=y
+       self.x=x
+       self.y=y
+
     def printxy(self):
         print(self.x)
         print(self.y)
 
+class addvar:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
 
-if __name__ == "__main__":
-    t1=test(3,4)
-    t1.printxy()
-    print(t1.class_variable)
-    t2=test(4,5)
-    t2.printxy()
-    print(t2.class_variable)
-    print(test.__doc__)
-    print(test.a)
+    def addxy(self):
+        print(self.x+self.y)
+
+
+class multvar:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+    def multxy(self):
+        print(self.x * self.y)
+
+
+class subtvar:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+    def subxy(self):
+        print(self.x - self.y)
+
+
+class myclass:
+    """ This is class test"""
+    class_var = 10
+    def test_function(self):
+        print("Hello")
+
+print(myclass.class_var)
+print(myclass.__doc__)
+
+x = printvar(1,2)
+x.printxy()
+
+y = addvar(1,2)
+y.addxy()
+
+z= multvar(1,2)
+z.multxy()
+
+m= subtvar(10,2)
+m.subxy()
+
