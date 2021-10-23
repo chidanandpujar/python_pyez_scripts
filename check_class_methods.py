@@ -23,6 +23,6 @@ class cls_methods:
 
 cls1 = cls_methods()
 cls1.regular()
-cls1.static_method()
-cls1.class_method()
+cls_methods.static_method()
+cls_methods.class_method()
 
