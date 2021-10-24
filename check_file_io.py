@@ -1,5 +1,5 @@
-fd = open("check_class1.py", "r")
-fd2 = open("check_fileio_test.py","w")
+fd = open("check_regex.py", "r")
+fd2 = open("check_fileio_test.py","a")
 
 
 lines = [ "#Script Author : xyz\n" ,"#Script Name : test\n" ]
