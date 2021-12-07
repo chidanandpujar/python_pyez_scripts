@@ -1,0 +1,19 @@
+<rpc>
+<open-configuration>
+<ephemeral-instance>test1</ephemeral-instance>
+</open-configuration>
+</rpc>
+ 
+<rpc>
+<load-configuration url="/var/tmp/test.xml"  action="replace" />
+</rpc>
+ 
+<rpc>
+    <commit-configuration>
+<synchronize/>
+    </commit-configuration>
+</rpc>
+ 
+<rpc>
+   <close-configuration/>
+</rpc>
