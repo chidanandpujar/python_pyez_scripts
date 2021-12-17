@@ -7,6 +7,12 @@
 #sudo systemctl start apache2  
 #systemctl enable apache2  
 #ps awux | grep apache2 | grep -v grep | head -1
+#Create dir junosConfig 
+#mkdir /var/www/html/junosConfig
+#Create config file conffile under /var/www/html/junosConfig
+#Add config statements to the conffile
+#vi /var/www/html/junosConfig
+#set system syslog file test1 any any
 #
 #####################################
 
