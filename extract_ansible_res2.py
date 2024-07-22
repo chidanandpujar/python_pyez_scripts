@@ -90,6 +90,5 @@ for res in results["test_results"]:
         for key, value in data.items():
             #print(key, value)
             if 'test_name' in key:
-                if data['result'] == 'false':
-                    print(data['test_name']) 
-                    print(data['result'])
+                print(data['test_name']) 
+                print(data['result'])
